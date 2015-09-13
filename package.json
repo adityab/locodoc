@@ -1,0 +1,28 @@
+{
+  "name": "locodoc",
+  "version": "0.1.0",
+  "description": "Scalable web service for coverting documents using LibreOffice",
+  "homepage": "https://github.com/adityab/locodoc",
+  "author": {
+    "name": "Aditya Bhatt",
+    "email": "aditya@bhatts.org"
+  },
+  "main": "./index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adityab/locodoc.git"
+  },
+  "keywords": [
+    "unoconv",
+    "document",
+    "conversion"
+  ],
+  "dependencies": {
+    "express": "4.13.x",
+    "mime": "1.2.x",
+    "multer": "1.0.x",
+    "underscore": "1.4.x",
+    "freeport": "1.0.x"
+  },
+  "license": "MIT"
+}
